@@ -132,6 +132,22 @@ $ has-define-properties-support
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/has-define-property-support`][@stdlib/assert/has-define-property-support]: detect `Object.defineProperty` support.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -188,6 +204,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-has-define-properties-support/main/LICENSE
 
 [mdn-define-properties]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties
+
+<!-- <related-links> -->
+
+[@stdlib/assert/has-define-property-support]: https://github.com/stdlib-js/assert-has-define-property-support
+
+<!-- </related-links> -->
 
 </section>
 
