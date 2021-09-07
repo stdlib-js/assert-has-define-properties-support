@@ -140,7 +140,7 @@ $ has-define-properties-support
 
 ## See Also
 
--   [`@stdlib/assert/has-define-property-support`][@stdlib/assert/has-define-property-support]: detect `Object.defineProperty` support.
+-   <span class="package-name">[`@stdlib/assert/has-define-property-support`][@stdlib/assert/has-define-property-support]</span><span class="delimiter">: </span><span class="description">detect `Object.defineProperty` support.</span>
 
 </section>
 
