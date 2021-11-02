@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-has-define-properties-support",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Detect `Object.defineProperties` support.",
   "license": "Apache-2.0",
   "author": {
@@ -14,7 +14,7 @@
     }
   ],
   "bin": {
-    "has-define-property-support": "./bin/cli"
+    "has-define-properties-support": "./bin/cli"
   },
   "main": "./lib",
   "directories": {
