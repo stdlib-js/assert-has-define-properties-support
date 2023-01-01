@@ -24,7 +24,23 @@ limitations under the License.
 
 > Detect [`Object.defineProperties`][mdn-define-properties] support.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-has-define-properties-support
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
@@ -32,32 +48,8 @@ limitations under the License.
 
 <!-- eslint-disable id-length -->
 
-To use in Observable,
-
 ```javascript
-hasDefinePropertiesSupport = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var hasDefinePropertiesSupport = require( 'path/to/vendor/umd/assert-has-define-properties-support/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.hasDefinePropertiesSupport;
-})();
-</script>
+var hasDefinePropertiesSupport = require( '@stdlib/assert-has-define-properties-support' );
 ```
 
 #### hasDefinePropertiesSupport()
@@ -81,13 +73,8 @@ var bool = hasDefinePropertiesSupport();
 
 <!-- eslint no-undef: "error", id-length: "off" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var hasDefinePropertiesSupport = require( '@stdlib/assert-has-define-properties-support' );
 
 var bool = hasDefinePropertiesSupport();
 if ( bool ) {
@@ -95,18 +82,65 @@ if ( bool ) {
 } else {
     console.log( 'Environment lacks `Object.defineProperties` support.' );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use the module as a general utility, install the module globally
+
+```bash
+npm install -g @stdlib/assert-has-define-properties-support
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: has-define-properties-support [options]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ has-define-properties-support
+<boolean>
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
@@ -148,7 +182,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -195,7 +229,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/has-define-property-support]: https://github.com/stdlib-js/assert-has-define-property-support/tree/umd
+[@stdlib/assert/has-define-property-support]: https://github.com/stdlib-js/assert-has-define-property-support
 
 <!-- </related-links> -->
 
