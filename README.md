@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@esm/index.mjs';
+import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@v0.1.0-esm/index.mjs';
 ```
 
 #### hasDefinePropertiesSupport()
@@ -74,7 +74,7 @@ var bool = hasDefinePropertiesSupport();
 <body>
 <script type="module">
 
-import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@esm/index.mjs';
+import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@v0.1.0-esm/index.mjs';
 
 var bool = hasDefinePropertiesSupport();
 if ( bool ) {
