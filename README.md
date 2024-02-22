@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-define-properties-support/tags). For example,
+
+```javascript
 import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@v0.2.1-esm/index.mjs';
 ```
 
@@ -74,7 +79,7 @@ var bool = hasDefinePropertiesSupport();
 <body>
 <script type="module">
 
-import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@v0.2.1-esm/index.mjs';
+import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@esm/index.mjs';
 
 var bool = hasDefinePropertiesSupport();
 if ( bool ) {
