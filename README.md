@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@deno/mod.js';
+import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@v0.2.2-deno/mod.js';
 ```
 
 #### hasDefinePropertiesSupport()
@@ -69,7 +69,7 @@ var bool = hasDefinePropertiesSupport();
 <!-- eslint no-undef: "error", id-length: "off" -->
 
 ```javascript
-import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@deno/mod.js';
+import hasDefinePropertiesSupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-define-properties-support@v0.2.2-deno/mod.js';
 
 var bool = hasDefinePropertiesSupport();
 if ( bool ) {
